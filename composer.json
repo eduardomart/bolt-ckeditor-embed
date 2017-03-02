@@ -1,0 +1,23 @@
+{
+    "name": "sahassar/ckembed",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Svante Richter",
+            "email": "svante.richter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sahassar\\ckembed\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "sahassar\\ckembed\\ckembedExtension",
+        "bolt-assets": "web"
+    }
+}
